@@ -21,10 +21,10 @@ message = "once sing : yirushaonianmoyang "
 full = famous_person + " " + message 
 print(full)
 name = " LIhailing"
-print name.lstripl()
-2 + 3
+print(name.lstrip())
+
 age = 23
-message  =  "Happy" + age + "rd Birthday!"
+message  =  "Happy" + str(age) + "rd Birthday!"
 print(message)
 age = 23
 message = "Happy" + str(age) + "rd Birthday!"
