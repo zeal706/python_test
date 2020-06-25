@@ -6,6 +6,7 @@ print(2 * 4)
 print(10 - 8)
 print(2 ** 3)  
 number = "24"
+
 message = "I love this number" + str(number)
 print(message)
 # 向大家问好
