@@ -6,11 +6,13 @@ bicycles = ['trek', 'cannondale,' 'redline', 'specialized']
 print(bicycles[0].title())
 bicycles = ['trek', 'cannondale',  'redline', 'specialized' ]
 print(bicycles[3])
+print("11111111111111111111111111111111111111111111")
+
 print(bicycles[1])
 bicycles = ['trek', 'cannondale',  'redline', 'specialized' ]
 print(bicycles[-1])
 bicycles = ['trek', 'cannondale',  'redline', 'specialized' ]
-message = "My first bicycle was a "+bicycles[0].title()+"."
+message = "My first bicycle was a " +bicycles[0].title() +  "."
 print(message)
 names = ['zhenzhen', 'xiaochu', 'xiaoshuang', 'xiaojuan']
 print(names[0])
@@ -48,6 +50,7 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 del motorcycles[1]
 print(motorcycles)
+
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 popped_motorcycles = motorcycles.pop()
@@ -63,12 +66,13 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles.remove('honda')
 print(motorcycles)
+print("222222222222222")
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
-too_expensive = 'honda'
-motorcycles.remove(too_expensive)
+#too_expensive = 'honda'
+motorcycles.remove('honda')
 print(motorcycles)
-print("\nA "+too_expensive.title()+" is too expensive for me.")
+print("\nA "+" is too expensive for me.")
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort()
 print(cars)
