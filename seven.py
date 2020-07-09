@@ -109,4 +109,4 @@ while polling_active:
     # 调查结束，显示结果
     print("\n---Poll Result ---")
     for name,response in responses.items():
-        print(name+" would like to climb "+response+".")
+        print(name+" would like to climb 家"+response+".")
