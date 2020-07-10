@@ -130,12 +130,12 @@ for area, introduce in cities.items():
 message = input("What kind car do you like?")
 print("Let me see if I can find you a "+message)
 
-number = input("How many people come here eat?")
+nmber = input("How many people come here eat?")
 number = int(number)
 if number > 8:
-    print("There is no desk")
+   print("There is no desk")
 else:
-    print("There have desk")
+   print("There have desk")
 
 prompt = "\nPlease add your favorite ingredients:"
 prompt+= "\n(Enter 'quit' when you are finished.)"
@@ -155,6 +155,37 @@ elif number <= 12:
 else:
     print("You need to pay 15$")
 
-x = 1
-while x <= 5:
-    print(x)
+#x = 1
+#while x <= 5:
+#   print(x)
+
+number = input("Enter a number, and I'll tell you if it can be exact division: ")
+number = int(number)
+if number % 10 == 0:
+    print("\nThe number "+str(number)+ "can be exact division.")
+else:
+    print("\nThe number "+str(number)+ " can't be exact division.")
+
+sandwich_orders = ['huafubin', 'quanmaibread','zhishi','butter bacon']
+finished_sandwiches = []
+while sandwich_orders:
+    current_orders = sandwich_orders.pop()
+    print("\nI made you "+current_orders.title())
+
+    finished_sandwiches.append(current_orders)
+print("\nIt have finish,including: ")
+for finished_sandwiche in finished_sandwiches:
+    print(finished_sandwiche.title())
+
+
+sandwich_orders = ['huafubin', 'pastrami','zhishi','butter bacon', 'pastrami', 'pastrami']
+print("\nThe deil is out of pastrami!")
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+print(sandwich_orders)
+
+responses = {}
+polling_active = True
+while polling_active:
+    message = input("\nIf you could visit one place in the world, where would you go?")
+    print(message)
